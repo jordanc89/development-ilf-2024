@@ -176,7 +176,7 @@
 }
 
 .parallax1 {
-  background-image: url("../img/ILFChicago.jpeg");
+  background: #053967;
   height: 800px;
   background-attachment: fixed;
   background-position: center;
@@ -185,7 +185,7 @@
 }
 
 .parallax2 {
-  background-image: url("../img/ILFChicago.jpeg");
+  background: #053967;
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -287,7 +287,7 @@
 
 @media only screen and (max-device-width: 1366px) {
   .parallax {
-    background-attachment: scroll;
+    background-attachment: no-scroll;
   }
 }
 
@@ -414,11 +414,12 @@
 
 .contact-section {
   padding: 5rem 0 0;
+  background: #053967;
 }
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  /*border-bottom: 0.25rem solid #053950;*/
 }
 
 .contact-section .card h4 {
@@ -429,7 +430,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #053967;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -445,7 +446,7 @@
   background: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgb(255, 255, 255);
 }
 
 .contact-section .social a:hover {
@@ -462,7 +463,7 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #053967;
 }
 
 a:focus, a:hover {
@@ -471,7 +472,7 @@ a:focus, a:hover {
 }
 
 .parallax3 {
-  background-image: url('../img/fiserv_location.jpg');
+  background-color: #053967;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -485,7 +486,7 @@ a:focus, a:hover {
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #053967 !important;
 }
 
 
