@@ -470,7 +470,7 @@ a:focus, a:hover {
   color: #3c6360;
 }
 
-/*.parallax3 {
+.parallax3 {
   background-image: url('../img/fiserv_location.jpg');
   background-attachment: fixed;
   background-position: center;
@@ -478,7 +478,7 @@ a:focus, a:hover {
   background-size: cover;
   margin-top: 200px;
   
-}*/
+}
 
 .bg-primary {
   background-color: #64a19d !important;
