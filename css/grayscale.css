@@ -198,7 +198,7 @@
     background: linear-gradient(90deg, #053967 35%, #053967 100%);
     height:200px;
     padding-top:110px;
-    margin-bottom:20px;"
+    margin-bottom:20px;
 }
 
 
@@ -500,9 +500,4 @@ footer {
 .active-page {
     border-radius: 0 0 4px 4px;
 }
-    
-
-
-
-
-
+}
